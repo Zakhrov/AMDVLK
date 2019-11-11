@@ -2,20 +2,18 @@
 <manifest>
 
   <remote  name="vulkan-github"
-           fetch="https://github.com/GPUOpen-Drivers" />
+           fetch="https://github.com/Zakhrov" />
 
   <default revision="master"
            remote="vulkan-github"
            sync-j="8"
            sync-c="true" />
 
-  <project path="drivers/xgl" name="xgl" revision="ef2f9c22455a79eea10c14e44fe371c003322ba1"/>
-  <project path="drivers/pal" name="pal" revision="76c5b997630e558158dbdd8ca24a120071068631"/>
-  <project path="drivers/llpc" name="llpc" revision="2ba438ad4c592229a4ae14bd4368e318ac4f81eb"/>
-  <project path="drivers/spvgen" name="spvgen" revision="f1bc2ba988273c3724afffe72fe9cd933a022ce7"/>
-  <project path="drivers/AMDVLK" name="AMDVLK" revision="master"/>
-  <project path="drivers/llvm-project" name="llvm-project" revision="2c15e55bc4b7171d6fa4bbb0cd9265bb8ad999b8"/>
-  <project path="drivers/third_party/metrohash" name="MetroHash" revision="2b6fee002db6cc92345b02aeee963ebaaf4c0e2f"/>
-  <project path="drivers/third_party/cwpack" name="CWPack" revision="b601c88aeca7a7b08becb3d32709de383c8ee428"/>
+  <project path="../xgl" name="xgl" revision="dev"/>
+  <project path="../pal" name="pal" revision="dev"/>
+  <project path="../llpc" name="llpc" revision="dev"/>
+  <project path="../spvgen" name="spvgen" revision="dev"/>
+  <project path="../third_party/metrohash" name="MetroHash" revision="amd-master"/>
+  <project path="../third_party/cwpack" name="CWPack" revision="amd-master"/>
 
 </manifest>
