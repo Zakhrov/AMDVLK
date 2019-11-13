@@ -13,6 +13,7 @@
   <project path="../pal" name="pal" revision="dev"/>
   <project path="../llpc" name="llpc" revision="dev"/>
   <project path="../spvgen" name="spvgen" revision="dev"/>
+  <project path="../llvm-project" name="llvm-project" revision="amd-gfx-gpuopen-dev"/>
   <project path="../third_party/metrohash" name="MetroHash" revision="amd-master"/>
   <project path="../third_party/cwpack" name="CWPack" revision="amd-master"/>
 
