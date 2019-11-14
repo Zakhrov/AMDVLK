@@ -1,0 +1,21 @@
+[submodule "llpc"]
+	path = llpc
+	url = https://github.com/Zakhrov/llpc.git
+[submodule "xgl"]
+	path = xgl
+	url = https://github.com/Zakhrov/xgl.git
+[submodule "pal"]
+	path = pal
+	url = https://github.com/Zakhrov/pal.git
+[submodule "llvm-project"]
+	path = llvm-project
+	url = https://github.com/Zakhrov/llvm-project.git
+[submodule "spvgen"]
+	path = spvgen
+	url = https://github.com/Zakhrov/spvgen.git
+[submodule "CWPack"]
+	path = CWPack
+	url = https://github.com/Zakhrov/CWPack.git
+[submodule "MetroHash"]
+	path = MetroHash
+	url = https://github.com/Zakhrov/MetroHash.git
